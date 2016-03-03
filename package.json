@@ -1,0 +1,48 @@
+{
+  "name": "passport-challenge",
+  "version": "0.1.0",
+  "description": "Challenge based authentication strategy for Passport.",
+  "keywords": [
+    "passport",
+    "challenge",
+    "auth",
+    "authn",
+    "authentication",
+    "username",
+    "digital signature"
+  ],
+  "author": {
+    "name": "Alin Dobra",
+    "email": "alin@terainsights.com",
+    "url": "http://www.terainsights.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tera-insights/passport-challenge.git"
+  },
+  "bugs": {
+    "url": "http://github.com/tera-insights/passport-challenge/issues"
+  },
+  "license": "MIT",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    }
+  ],
+  "main": "./lib",
+  "dependencies": {
+    "passport-strategy": "1.x.x"
+  },
+  "devDependencies": {
+    "mocha": "1.x.x",
+    "chai": "1.x.x",
+    "chai-passport-strategy": "0.1.x"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec --require test/bootstrap/node test/*.test.js"
+  }
+}
