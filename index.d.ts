@@ -1,9 +1,8 @@
+import * as passport from 'passport';                                                                                                                                      
+import * as express from 'express';                                                                                                                                        
+
 declare module 'passport-challenge' {
-
-    import passport = require('passport');
-    import express = require('express');
-
-    interface IStrategyBase {
+     interface IStrategyBase {
         usernameField?: string;
         challengeField?: string;
         signatureField?: string;
