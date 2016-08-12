@@ -1,6 +1,6 @@
 {
   "name": "passport-challenge",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Challenge based authentication strategy for Passport.",
   "keywords": [
     "passport",
@@ -20,6 +20,7 @@
     "type": "git",
     "url": "git://github.com/tera-insights/passport-challenge.git"
   },
+  "typings": "index.d.ts",
   "bugs": {
     "url": "http://github.com/tera-insights/passport-challenge/issues"
   },
